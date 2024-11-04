@@ -15,7 +15,7 @@ section:nth-child(even) {
 }
 header {
     font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
+    font-size: larger;
     letter-spacing: normal;
     line-height: normal;
     text-align: center;
