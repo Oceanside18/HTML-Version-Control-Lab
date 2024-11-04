@@ -1,0 +1,15 @@
+header {
+    background-color: blueviolet;
+    padding: 1rem;
+}
+header nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+header ul a {
+    background-color: aliceblue;
+}
+section:nth-child(even) {
+    background-color: aqua;
+}
