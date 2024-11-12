@@ -13,6 +13,7 @@ header ul a {
 section:nth-child(even) {
     background-color: aqua;
 }
+/* Part I found moore difficult*/
 header {
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
@@ -32,3 +33,4 @@ footer {
     color: aliceblue;
     text-align: center;
 }
+/*Bold footer*/
