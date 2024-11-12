@@ -23,3 +23,12 @@ header {
     white-space: none;
 }
 gallary {height: 100px; background-color: aquamarine:}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 75%;
+    background-color: red;
+    color: aliceblue;
+    text-align: center;
+}
