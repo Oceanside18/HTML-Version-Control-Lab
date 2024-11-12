@@ -23,6 +23,7 @@ header {
     white-space: none;
 }
 gallary {height: 100px; background-color: aquamarine:}
+<style>
 footer {
     position: fixed;
     left: 0;
@@ -32,3 +33,4 @@ footer {
     color: aliceblue;
     text-align: center;
 }
+</style>
