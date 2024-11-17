@@ -8,4 +8,16 @@ if (< 12) {
      greeting = "Good afternoon!";
 } else {
     greeting = "Good evening";
+var buttons = document.getElementsById (container)
+
+buttons.oneclick = onbuttonclicked;
+
+function onbuttonclicked () {
+    if (onbuttonclicked) {
+        button1.style.backgrounfColor = "red";
+        button1.disabled=true;
+    } else {
+        button1.style.backgroundColor= "green";
+        button1.disabled=false;
+    }
 }
