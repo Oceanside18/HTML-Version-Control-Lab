@@ -12,6 +12,7 @@ var buttons = document.getElementsById (container)
 
 buttons.oneclick = onbuttonclicked;
 
+alert ("Hello world")
 function onbuttonclicked ("btn-alert") {
     if (onbuttonclicked) {
         button1.style.backgrounfColor = "red";
@@ -21,4 +22,9 @@ function onbuttonclicked ("btn-alert") {
         button1.disabled=false;
     }
 }
-alert ("Hello world")
+let count = 0;
+
+const intervalid = setInterval (()) => {
+    count ++;
+    console.log(count);
+}, 1000);
