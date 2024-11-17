@@ -12,7 +12,7 @@ var buttons = document.getElementsById (container)
 
 buttons.oneclick = onbuttonclicked;
 
-function onbuttonclicked () {
+function onbuttonclicked ("btn-alert") {
     if (onbuttonclicked) {
         button1.style.backgrounfColor = "red";
         button1.disabled=true;
@@ -21,3 +21,4 @@ function onbuttonclicked () {
         button1.disabled=false;
     }
 }
+alert ("Hello world")
