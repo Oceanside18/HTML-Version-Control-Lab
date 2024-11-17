@@ -24,7 +24,7 @@ function onbuttonclicked ("btn-alert") {
 }
 let count = 0;
 
-const intervalid = setInterval (()) => {
+const intervalid = setInterval () => {
     count ++;
     console.log(count);
 }, 1000);
