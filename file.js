@@ -2,9 +2,9 @@
 reference: https://www.uvm.edu/~bnelson/computer/javascript/pageheadersandfooters.html 
 Date (c Mya McCarthy, 2024)
 </footer>
-if (< 12) { 
+if (<12) { 
     greeting = "good morning!";
-} else if (< 17) { 
+} else if (<17) { 
      greeting = "Good afternoon!";
 } else {
     greeting = "Good evening";
@@ -27,4 +27,7 @@ let count = 0;
 const intervalid = setInterval () => {
     count ++;
     console.log(count);
-}, 1000);
+} 1000);
+for (let i = 0; i <4; 1 +=i) {
+    console. log(i);
+}
